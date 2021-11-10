@@ -35,7 +35,7 @@ import java.util.Locale;
 
 public class GalleryFragment extends Fragment {
 
-    EditText userName,userRegNo,destination,selectStartDate,selectEndDate;
+    EditText userName,userRegNo,destination,selectStartDate,selectEndDate,PHONEnUMBER;
     Button next;
 
     // creating a variable for our
@@ -73,6 +73,7 @@ public class GalleryFragment extends Fragment {
         View root = binding.getRoot();
 
         firebaseAuth=FirebaseAuth.getInstance();
+        PHONEnUMBER = root.findViewById(R.id.PHONEnUMBER);
 
         userName = root.findViewById(R.id.userName);
         userRegNo = root.findViewById(R.id.userRegNo);
@@ -102,45 +103,37 @@ public class GalleryFragment extends Fragment {
                 String desti = destination.getText().toString();
                 String SSD = selectStartDate.getText().toString();
                 String SED = selectEndDate.getText().toString();
+                String no = PHONEnUMBER.getText().toString();
 
                 if (!name.isEmpty()){
                     if (!Regno.isEmpty()){
                         if (!desti.isEmpty()){
                             if (!SSD.isEmpty()){
                                 if (!SED.isEmpty()){
-
-                                    firebaseDatabase = FirebaseDatabase.getInstance();
-
-                                    // below line is used to get reference for our database.
-                                    databaseReference = FirebaseDatabase.getInstance().getReference(firebaseAuth.getUid());
-                                    mprogressbarofsetprofile.setVisibility(View.VISIBLE);
-
-                                    addDatatoFirebase(name,Regno,desti,SSD,SED);
+                                    if (!no.isEmpty()) {
 
 
+                                        firebaseDatabase = FirebaseDatabase.getInstance();
+
+                                        // below line is used to get reference for our database.
+                                        databaseReference = FirebaseDatabase.getInstance().getReference(firebaseAuth.getUid());
+                                        mprogressbarofsetprofile.setVisibility(View.VISIBLE);
+
+                                        addDatatoFirebase(name, Regno, desti, SSD, SED,no);
 
 
-                                    mprogressbarofsetprofile.setVisibility(View.GONE);
+                                        mprogressbarofsetprofile.setVisibility(View.GONE);
 
-                                    Intent intent = new Intent(getActivity(),UserPaymentPage.class);
-                                    startActivity(intent);
-
-
+                                        Intent intent = new Intent(getActivity(), UserPaymentPage.class);
+                                        startActivity(intent);
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
+                                    }else {
+                                        PHONEnUMBER.setError("Empty Field Are Not Allowed");
+                                    }
 
                                 }else {
                                     selectEndDate.setError("Empty Field Are Not Allowed ");
@@ -174,13 +167,15 @@ public class GalleryFragment extends Fragment {
         return root;
     }
 
-    private void addDatatoFirebase(String name, String regno, String desti, String ssd, String sed) {
+    private void addDatatoFirebase(String name, String regno, String desti, String ssd, String sed,String no) {
 
         userHelper.setName(name);
         userHelper.setRegno(regno);
         userHelper.setDesti(desti);
         userHelper.setSSD(ssd);
         userHelper.setSED(sed);
+        userHelper.setNo(no);
+
 
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override

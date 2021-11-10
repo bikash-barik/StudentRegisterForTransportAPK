@@ -1,22 +1,260 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.slideshow.SlideshowFragment">
+    android:orientation="vertical"
+    tools:context=".ProfileActivity"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:padding="20dp"
+        android:background="#F10656">
 
-    <TextView
-        android:id="@+id/text_slideshow"
+        <ImageView
+            android:id="@+id/logoutBtn"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="300dp"
+            android:src="@drawable/ic_logout">
+
+        </ImageView>
+
+        <ImageView
+
+            android:id="@+id/profileImg"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_person"
+            android:background="#EDEAEA">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/fullName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/profileImg"
+            android:fontFamily="@font/gotham"
+            android:includeFontPadding="false"
+
+            android:textColor="@color/black"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/clgGmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fullName"
+            android:layout_marginLeft="10dp"
+
+
+            android:layout_toRightOf="@+id/profileImg"
+            android:fontFamily="@font/gotham"
+            android:includeFontPadding="false"
+
+            android:textSize="14sp">
+
+        </TextView>
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:padding="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_marginTop="-100dp">
+        <com.google.android.material.card.MaterialCardView
+
+            android:layout_width="0dp"
+            android:layout_height="125dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            >
+            <RelativeLayout
+
+                android:background="#FFEB3B"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/tit1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Destination"
+                    android:layout_centerHorizontal="true">
+
+
+                </TextView>
+                <TextView
+                    android:id="@+id/destinatationshow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tit1"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:layout_centerHorizontal="true">
+
+                </TextView>
+
+
+            </RelativeLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_margin="10dp"
+            android:layout_width="0dp"
+            android:layout_height="125dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            >
+            <RelativeLayout
+                android:background="#FFEB3B"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/tit2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Start / End"
+                    android:layout_centerHorizontal="true">
+
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/sts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tit2"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/black"
+                    android:textSize="14sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/t0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="to"
+                    android:layout_below="@id/sts"
+                    android:layout_centerHorizontal="true">
+
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/Std"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/t0"
+                    android:layout_centerHorizontal="true"
+
+                    android:textColor="@color/black"
+                    android:textSize="14sp">
+
+                </TextView>
+
+
+            </RelativeLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tit3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Reagestration no">
+
+        </TextView>
+        <TextView
+            android:id="@+id/clgRegNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            >
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tit4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Branch">
+
+        </TextView>
+        <TextView
+            android:id="@+id/Branch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B-tech(CSE)"
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            >
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tit5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone No">
+
+        </TextView>
+        <TextView
+            android:id="@+id/phoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            >
+
+        </TextView>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

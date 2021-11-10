@@ -14,7 +14,7 @@
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/activity_conmform_pament.xml" value="0.25" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/activity_home.xml" value="0.25" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/activity_profile.xml" value="0.264" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/activity_transport_details.xml" value="0.25" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/activity_user.xml" value="0.25" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/activity_user_payment_page.xml" value="0.25" />
@@ -22,6 +22,7 @@
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/content_user.xml" value="0.25" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/fragment_gallery.xml" value="0.264" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/fragment_slideshow.xml" value="0.234375" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/gradientbackground.xml" value="0.25" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/nav_header_user.xml" value="0.25" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/menu/activity_main_drawer.xml" value="0.25" />
