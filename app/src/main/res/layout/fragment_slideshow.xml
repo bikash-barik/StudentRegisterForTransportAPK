@@ -1,18 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    tools:context=".ProfileActivity"
-    >
+    tools:context=".ProfileActivity">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:padding="20dp"
         android:background="#F10656">
+
+        <TextView
+            android:id="@+id/titl5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Centurion University of Technology "
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:fontFamily="@font/gotham"
+            android:textSize="15sp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/titl6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/gotham"
+            android:textSize="15sp"
+            android:text="and Management "
+            android:textColor="@color/black"
+            android:textAlignment="center">
+
+        </TextView>
 
         <ImageView
             android:id="@+id/logoutBtn"
@@ -23,16 +46,32 @@
 
         </ImageView>
 
-        <ImageView
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardviewofuser"
+            android:layout_width="55dp"
 
-            android:id="@+id/profileImg"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_height="55dp"
+            android:backgroundTint="@color/profileAccentColor"
+            android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
-            android:src="@drawable/ic_person"
-            android:background="#EDEAEA">
 
-        </ImageView>
+            android:layout_marginBottom="20dp"
+
+            app:cardCornerRadius="55dp">
+
+
+            <ImageView
+                android:background="@color/profileAccentColor"
+                android:id="@+id/imageviewofuser"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_person">
+
+            </ImageView>
+
+
+        </androidx.cardview.widget.CardView>
 
         <TextView
             android:id="@+id/fullName"
@@ -40,7 +79,7 @@
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
-            android:layout_toRightOf="@+id/profileImg"
+            android:layout_toRightOf="@+id/cardviewofuser"
             android:fontFamily="@font/gotham"
             android:includeFontPadding="false"
 
@@ -57,7 +96,7 @@
             android:layout_marginLeft="10dp"
 
 
-            android:layout_toRightOf="@+id/profileImg"
+            android:layout_toRightOf="@+id/cardviewofuser"
             android:fontFamily="@font/gotham"
             android:includeFontPadding="false"
 
@@ -87,16 +126,18 @@
                 android:background="#FFEB3B"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
                 <TextView
                     android:id="@+id/tit1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Destination"
-                    android:layout_centerHorizontal="true">
+                    android:layout_centerHorizontal="true"
+                    android:text="Destination">
 
 
                 </TextView>
                 <TextView
+                    android:fontFamily="@font/gotham"
                     android:id="@+id/destinatationshow"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -218,6 +259,7 @@
 
             android:textColor="@color/black"
             android:textSize="14sp"
+            android:fontFamily="@font/gotham"
             >
 
         </TextView>

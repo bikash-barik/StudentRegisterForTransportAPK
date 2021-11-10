@@ -83,7 +83,6 @@ public class SlideshowFragment extends Fragment {
                 SED.setText(muserhelper.getSED());
                 phoneNumber.setText(muserhelper.getNo());
                 clgRegNo.setText(muserhelper.getRegno());
-                clgGmail.setText(  "https://cutm.ac.in/");
 
             }
 
