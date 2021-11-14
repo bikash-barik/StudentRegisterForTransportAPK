@@ -95,6 +95,8 @@ public class helpAndFeedback extends Fragment {
                     databaseReference = FirebaseDatabase.getInstance().getReference(firebaseAuth.getUid()).child(" HELP AND FEEDBACK ");
                     addDataonFirebase(mfeedback);
 
+                    sendProgressBar.setVisibility(View.GONE);
+
                 }else {
                     feedback.setError("Empty Field Are Not Allowed");
                 }
@@ -118,6 +120,7 @@ public class helpAndFeedback extends Fragment {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 databaseReference.setValue(userHelper);
+                Toast.makeText(getContext(), "Thanks For Your Feedback", Toast.LENGTH_SHORT).show();
 
             }
 
