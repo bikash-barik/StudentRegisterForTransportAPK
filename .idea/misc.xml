@@ -10,8 +10,10 @@
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/drawable/gradientbackground.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.14322916666666666" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/drawable/ic_person_outline_white_24dp.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/font/autour_one.xml" value="0.28020833333333334" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/activity_admin.xml" value="0.25" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/activity_conmform_pament.xml" value="0.25" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/activity_cuttack.xml" value="0.25" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/activity_home.xml" value="0.2" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/activity_profile.xml" value="0.264" />
@@ -20,12 +22,18 @@
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/activity_user_payment_page.xml" value="0.25" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/app_bar_user.xml" value="0.25" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/content_user.xml" value="0.25" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/dialogcontent.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/fragment_bus.xml" value="0.2" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/fragment_gallery.xml" value="0.264" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/fragment_help_and_feedback.xml" value="0.25" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/fragment_recfragment.xml" value="0.20260416666666667" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/fragment_slideshow.xml" value="0.234375" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/gradientbackground.xml" value="0.25" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/listitems.xml" value="0.25" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/listview.xml" value="0.21041666666666667" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/nav_header_user.xml" value="0.25" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/layout/singlerow.xml" value="0.2" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/menu/activity_main_drawer.xml" value="0.25" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/menu/user.xml" value="0.25" />
       </map>

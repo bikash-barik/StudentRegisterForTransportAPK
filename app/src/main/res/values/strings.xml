@@ -39,4 +39,8 @@
     <string name="submit">Submit</string>
     <string name="promotion_code">Enter a Valid Code: e.g. 123</string>
     <string name="promotion_title">Promotion Code:</string>
+    <string name="name">Name</string>
+    <string name="admin_panel">ADMIN PANEL</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

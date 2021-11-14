@@ -3,15 +3,12 @@ package com.example.androidproject;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.view.WindowManager;
 
-public class AdminActivity extends AppCompatActivity {
+public class CUTTACK extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_admin);
-
-
+        setContentView(R.layout.activity_cuttack);
     }
 }

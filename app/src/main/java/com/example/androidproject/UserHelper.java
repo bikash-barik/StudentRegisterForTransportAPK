@@ -2,19 +2,22 @@ package com.example.androidproject;
 
 public class UserHelper {
 
-    String name, Regno, desti, SSD, SED ,no;
+    String name, Regno, desti, SSD, SED ,no,feedback;
 
 
     public UserHelper(){
 
     }
-    public UserHelper(String name, String regno, String desti, String SSD, String SED, String no) {
+
+
+    public UserHelper(String name, String regno, String desti, String SSD, String SED, String no, String feedback) {
         this.name = name;
         Regno = regno;
         this.desti = desti;
         this.SSD = SSD;
         this.SED = SED;
         this.no = no;
+        this.feedback = feedback;
     }
 
     public String getName() {
@@ -63,5 +66,13 @@ public class UserHelper {
 
     public void setNo(String no) {
         this.no = no;
+    }
+
+    public String getFeedback() {
+        return feedback;
+    }
+
+    public void setFeedback(String feedback) {
+        this.feedback = feedback;
     }
 }
