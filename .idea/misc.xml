@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/StudentReagesterForTransportAPK/app/src/main/res/layout/activity_admin.xml" value="0.14010416666666667" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/StudentReagesterForTransportAPK/app/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/StudentReagesterForTransportAPK/app/src/main/res/layout/activity_user.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/StudentReagesterForTransportAPK/app/src/main/res/layout/activity_user_payment_page.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/StudentReagesterForTransportAPK/app/src/main/res/layout/content_user.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/StudentReagesterForTransportAPK/app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/drawable/back_to_home_button.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/drawable/blue_border_rounded_cornwe.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/AndroidProject/app/src/main/res/drawable/blue_fill__rounded_color.xml" value="0.26614583333333336" />
